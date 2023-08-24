@@ -1,9 +1,9 @@
 <?php
 /* Database config */
 $db_host		= 'localhost';
-$db_user		= 'itgutvxj_root';
-$db_pass		= 'coVXEnl701hI';
-$db_database	= 'sales'; 
+$db_user		= 'root'; // Change this to your user
+$db_pass		= 'xxxxxxx'; // Change this to your password
+$db_database	= 'sales'; // Change this to your database name 
 
 /* End config */
 
