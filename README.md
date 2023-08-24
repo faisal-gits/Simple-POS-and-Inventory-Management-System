@@ -1,117 +1,94 @@
-# Simple POS and Inventory Management - (EDUCATION PURPOSE ONLY) - Documentation
-
+# Simple POS and Inventory Management System Documentation
+This guide is designed to help you understand and use the system effectively.
 ## Table of Contents
-
-1. **Introduction**
-   - Purpose of the Documentation
-   - About the System
-   - Learning Objectives
-
-2. **Getting Started**
-   - Prerequisites
-   - Installing XAMPP
-   - Setting Up the System
-
-3. **User Roles and Login**
-   - Admin User
-   - Cashier User
+1. Introduction
+   - Purpose
+   - Features
+2. System Requirements
+3. Installation
+   - Setting up the Environment
+   - Database Configuration
+   - Running the System
+4. User Guide
    - Logging In
-
-4. **Using the System**
-   - Dashboard Overview
-   - Managing Categories
-   - Managing Products
-   - Creating a Sale
-   - Viewing Inventory
-   - Generating Reports
-
-5. **Troubleshooting**
-   - Common Issues
-   - Technical Support
-
-6. **Ethical Use and Data Privacy**
-   - Respecting User Privacy
-   - Responsible Use of the System
-
-7. **Conclusion**
-   - Recap of Learning
-   - Acknowledgments
+   - Admin Functionality
+   - Cashier Functionality
+5. Reports
+   - Generating Sales Reports
+6. Troubleshooting
+7. FAQs
+8. Conclusion
+9. Legal Disclaimer
 
 ## 1. Introduction
+The Simple POS and Inventory Management System is a web-based application built using PHP and MySQL. It is designed to assist shops and stores in managing sales transactions and inventory. The system offers two user roles: Admin and Cashier, each with specific access and responsibilities.
 
-### Purpose of the Documentation
-Welcome to the Simple POS and Inventory Management System documentation! This guide is designed to help you understand and use the system effectively.
+### Purpose
+The purpose of this system is to provide an efficient and user-friendly solution for small businesses to manage their sales and inventory operations. It simplifies tasks such as tracking sales, managing products, and generating reports.
 
-### About the System
-Learn about the Simple POS and Inventory Management System and its features, which are aimed at helping shops or stores manage sales and inventory.
+### Features
+- Login and Logout functionality.
+- Category management for organizing products.
+- Product management for adding, updating, and deleting products.
+- Sales transaction creation and management for cashiers.
+- Stock monitoring to keep track of inventory.
+- User management for administrators.
+- Generation of printable sales reports based on date ranges.
 
-### Learning Objectives
-By the end of this guide, you'll be able to navigate the system, manage products and sales, and generate reports.
+## 2. System Requirements
+- Web server software (e.g., XAMPP, WAMP, LAMP)
+- Modern web browser (e.g., Google Chrome, Mozilla Firefox)
+- Text editor or integrated development environment (IDE)
 
-## 2. Getting Started
+## 3. Installation
+### Setting up the Environment
+1. Install XAMPP (or your preferred web server package).
+2. Start the Apache and MySQL services using the control panel.
+3. Create a folder named `EREC` in the `htdocs` directory of your XAMPP installation.
+   
+### Database Configuration
+1. Access phpMyAdmin by visiting `http://localhost/phpmyadmin/` in your browser.
+2. Create a new database named "sales."
+3. Inside the project's `db` folder, import the "sales.sql" file into the "sales" database.
 
-### Prerequisites
-Before you begin, make sure you have basic computer skills and an interest in learning about web-based systems.
+### Running the System
+1. Copy the project files into the `EREC` folder.
+2. Open a browser and go to `http://localhost/EREC` to access the system.
 
-### Installing XAMPP
-Follow step-by-step instructions to download and install XAMPP, the software that will help you run the system on your computer.
-
-### Setting Up the System
-Learn how to set up the system by copying project files, starting the XAMPP servers, and importing the database.
-
-## 3. User Roles and Login
-
-### Admin User
-Discover the roles and responsibilities of an admin user, who has full access to system features.
-
-### Cashier User
-Explore the role of a cashier user, who can create sales transactions and manage customers.
-
+## 4. User Guide
 ### Logging In
-Learn how to log in using the provided credentials for admin and cashier roles.
+- Access the system using the URL provided during installation.
+- Use the following admin credentials for login:
+   - Username: admin
+   - Password: admin123
 
-## 4. Using the System
+### Admin Functionality
+- Manage categories, products, suppliers, and users.
+- Monitor stock levels and update inventory.
+- Generate sales reports.
 
-### Dashboard Overview
-Get familiar with the system's dashboard layout and navigation.
+### Cashier Functionality
+- Create new sales transactions.
+- Manage the customer list.
 
-### Managing Categories
-Understand how to add, edit, and delete product categories.
+## 5. Reports
+### Generating Sales Reports
+- Log in as an admin.
+- Navigate to the "Reports" section.
+- Specify a date range for the report.
+- Generate and view the printable sales report.
 
-### Managing Products
-Learn how to add new products, update existing ones, and manage their details.
+## 6. Troubleshooting
+- If you encounter any issues during installation, ensure that the file paths and configurations are accurate.
+- Check the PHP error logs and the browser's developer console for error messages.
 
-### Creating a Sale
-Discover how cashiers can create new sales transactions by adding products to the cart.
+## 7. FAQs
+Provide answers to common questions users might have about the system, installation, and usage.
 
-### Viewing Inventory
-Find out how to monitor product stock and ensure products are available.
+## 8. Conclusion
+Summarize the purpose and benefits of the system. Encourage users to provide feedback for improvements.
 
-### Generating Reports
-Learn how to generate printable sales reports and filter them by date range.
+## 9. Legal Disclaimer
+Include a disclaimer stating the terms of use, ethical considerations, and any legal responsibilities related to the system's usage.
 
-## 5. Troubleshooting
-
-### Common Issues
-Find solutions to common problems you might encounter while using the system.
-
-### Technical Support
-If you're facing issues beyond what's covered, get guidance on seeking technical help.
-
-## 6. Ethical Use and Data Privacy
-
-### Respecting User Privacy
-Understand the importance of using the system responsibly and respecting user data.
-
-### Responsible Use of the System
-Learn about ethical considerations and the responsible use of the system.
-
-## 7. Conclusion
-
-### Recap of Learning
-Recap what you've learned throughout this guide.
-
-### Acknowledgments
-Recognize the authors and contributors who developed this system.
-
-Remember to explain concepts using simple language, include screenshots whenever possible, and provide step-by-step instructions. This documentation should empower students to navigate and utilize the system effectively while fostering responsible and ethical usage.
+Remember to tailor each section to your specific project and its functionalities. Good documentation enhances user experience and helps users effectively utilize your software.
