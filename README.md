@@ -49,7 +49,7 @@ The purpose of this system is to provide an efficient and user-friendly solution
 ### Database Configuration
 1. Access phpMyAdmin by visiting `http://localhost/phpmyadmin/` in your browser.
 2. Create a new database named "sales."
-3. Inside the project's `db` folder, import the "sales.sql" file into the "sales" database.
+3. Inside the project's `database` folder, import the "sales.sql" file into the "sales" database.
 
 ### Running the System
 1. Copy the project files into the `priject-name` folder.
