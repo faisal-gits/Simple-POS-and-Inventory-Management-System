@@ -44,7 +44,7 @@ The purpose of this system is to provide an efficient and user-friendly solution
 ### Setting up the Environment
 1. Install XAMPP (or your preferred web server package).
 2. Start the Apache and MySQL services using the control panel.
-3. Create a folder named `priject-name` in the `htdocs` directory of your XAMPP installation.
+3. Create a folder named `project-name` in the `htdocs` directory of your XAMPP installation.
    
 ### Database Configuration
 1. Access phpMyAdmin by visiting `http://localhost/phpmyadmin/` in your browser.
@@ -52,8 +52,8 @@ The purpose of this system is to provide an efficient and user-friendly solution
 3. Inside the project's `database` folder, import the "sales.sql" file into the "sales" database.
 
 ### Running the System
-1. Copy the project files into the `priject-name` folder.
-2. Open a browser and go to `http://localhost/priject-name` to access the system.
+1. Copy the project files into the `project-name` folder.
+2. Open a browser and go to `http://localhost/project-name` to access the system.
 
 ## 4. User Guide
 ### Logging In
